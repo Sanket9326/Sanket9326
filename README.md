@@ -1,4 +1,4 @@
-👋 Hi, I'm Sanket Sambhaji Sawant, a passionate Computer Science and Engineering student at Sharad Institute of Technology with a stellar CGPA of 9.39. I actively pursue proficiency in Java, Python, Machine Learning, SQL, HTML, CSS, JavaScript, and C, and enjoy daily coding challenges on platforms like LeetCode and GeeksforGeeks.
+👋 Hi, I'm Sanket Sambhaji Sawant, a passionate Computer Science and Engineering student at Sharad Institute of Technology with a stellar CGPA of 9.39. I actively pursue proficiency in Java, Machine Learning,SQL,Web devlopemnet and enjoy daily coding challenges on platforms like LeetCode and GeeksforGeeks.
 
 Education
 Bachelor of Technology, Computer Science and Engineering
@@ -6,6 +6,8 @@ Sharad Institute of Technology, Expected 2025
 Skills
 Technical: Java, Python, C, HTML, CSS, JavaScript, Bootstrap, Machine Learning, SQL
 Soft Skills: Problem Solving, Algorithms, Communication, Software Development Lifecycle
+
+
 Experience
 🤖 Machine Learning and Data Analysis Intern
 OneStar Solutions, Sangli, India
