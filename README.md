@@ -1,27 +1,9 @@
-👋 Hi, I'm Sanket Sambhaji Sawant, a passionate Computer Science and Engineering student at Sharad Institute of Technology . I actively pursue proficiency in Java, Machine Learning,SQL,Web devlopemnet and enjoy daily coding challenges on platforms like LeetCode and GeeksforGeeks.
-
-Education:-
-Bachelor of Technology, Computer Science and Engineering
-Sharad Institute of Technology, Expected 2025
-Skills :-
-Technical: Java, Python, C, HTML, CSS, JavaScript, Bootstrap, Machine Learning, SQL
-Soft Skills: Problem Solving, Algorithms, Communication, Software Development Lifecycle
+# 💫 About Me:
+’m Sanket Sambhaji Sawant, a passionate software developer currently working on projects with Java, Spring Boot, and Maven. I actively engage in coding challenges on LeetCode and GeeksforGeeks to sharpen my skills. Fun fact: I led my team to victory in the Dipex2024 Hackathon and have a strong interest in creating innovative software solutions.
 
 
-Experience :-
-🤖 Machine Learning and Data Analysis Intern
-OneStar Solutions, Sangli, India
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/sanket_9326?igsh=MWRxbmJ3Yzk5bWduNQ==) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/sanket-sawant-02b80a252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 
 
-💾 SQL Intern
-MindIt Services, Miraj, India
-
-🎨 HTML/CSS Intern
-Sangli Software, Sangli, India
-
-🌟 Extra-Curricular Activities :-
-Solved data structures and algorithms problems on LeetCode and GeeksforGeeks.
-Organized coding and project competitions at college events.
-🚀 Leadership :-
-Led teams to 1st and 2nd place at Dipex2024 State-Level Hackathon and Expo2024.
-Head Coordinator for Innovation 2K24.
-Senior Secretary of COMPESA, organizing technical events.
+# 💻 Tech Stack:
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
