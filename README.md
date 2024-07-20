@@ -1,6 +1,13 @@
 # 💫 About Me:
-’m Sanket Sambhaji Sawant, a passionate software developer currently working on projects with Java, Spring Boot, and Maven. I actively engage in coding challenges on LeetCode and GeeksforGeeks to sharpen my skills. 
+👋 Hi, I'm Sanket Sambhaji Sawant!
 
+🔧 Tech Enthusiast | I specialize in creating robust and scalable applications using Java, Spring Boot, and Maven. Passionate about leveraging modern technologies to build efficient solutions.
+
+💡 Current Projects | Focused on developing innovative solutions with Machine Learning, Bootstrap, and SQL. Exploring new ways to integrate these technologies for enhanced functionality and user experience.
+
+💻 Coding Challenges | Solving complex problems on LeetCode and GeeksforGeeks to continuously improve my skills.
+
+🏆 Achievements | Proud to have led my team to victory in the Dipex2024 Hackathon.
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/sanket_9326?igsh=MWRxbmJ3Yzk5bWduNQ==) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/sanket-sawant-02b80a252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 
 
