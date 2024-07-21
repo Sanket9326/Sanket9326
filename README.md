@@ -7,7 +7,7 @@
 
 💻 Coding Challenges | Solving complex problems on LeetCode and GeeksforGeeks to continuously improve my skills.
 
-🏆 Achievements | Proud to have led my team to victory in the Dipex2024 Hackathon.
+🏆 Achievements | Proud to have led my team to victory in the Dipex2024 & Expo2024 Hackathon.
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/sanket_9326?igsh=MWRxbmJ3Yzk5bWduNQ==) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanket-sawant-02b80a252/) 
 
