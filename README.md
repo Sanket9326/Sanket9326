@@ -3,7 +3,7 @@
 
 🔧 Tech Enthusiast | I specialize in creating robust and scalable applications using Java, Spring Boot, and Maven. Passionate about leveraging modern technologies to build efficient solutions.
 
-💡 Current Projects | Focused on developing innovative solutions with Machine Learning, Bootstrap, and SQL. Exploring new ways to integrate these technologies for enhanced functionality and user experience.
+💡 Current Projects | Focused on developing innovative solutions with Java , SpringBoot, Machine Learninng and SQL. Exploring new ways to integrate these technologies for enhanced functionality and user experience.
 
 💻 Coding Challenges | Solving complex problems on LeetCode and GeeksforGeeks to continuously improve my skills.
 
