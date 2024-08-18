@@ -1,11 +1,11 @@
 <h1 align="center">👋 Hey, I'm Sanket Sambhaji Sawant!</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Tech+Enthusiast+%7C+Java+%7C+Spring+Boot;Machine+Learning+Fanatic;Building+Innovative+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=CS+Enthusiast+%7C+Java+%7C+Spring+Boot;Machine+Learning+Fanatic;Building+Innovative+Solutions" alt="Typing SVG" />
 </p>
 
 ## 💫 About Me:
-- 🔧 **Tech Enthusiast** | I specialize in creating robust and scalable applications using **Java**, **Spring Boot**, and **Maven**.
+- 🔧 **CS Enthusiast** | I specialize in creating robust and scalable applications using **Java**, **Spring Boot**, and **Maven**.
 - 💡 **Current Projects** | Focused on developing innovative solutions with **Java**, **Spring Boot**, **Machine Learning**, and **SQL**.
 - 💻 **Coding Challenges** | Solving complex problems on **LeetCode** and **GeeksforGeeks** to continuously improve my skills.
 - 🏆 **Achievements** | Led my team to victory in the **Dipex2024** & **Expo2024** Hackathons.
@@ -18,6 +18,13 @@
   <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Machine_Learning-%23FF6F00.svg?style=for-the-badge&logoColor=white" alt="Machine Learning" />
   <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</p>
+
+---
+
+### 🖋️ Favorite Java Quote:
+<p align="center">
+  <i>"Write once, run anywhere." — Sun Microsystems</i>
 </p>
 
 ---
