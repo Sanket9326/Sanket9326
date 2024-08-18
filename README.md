@@ -22,13 +22,6 @@
 
 ---
 
-### 🖋️ Favorite Java Quote:
-<p align="center">
-  <i>"Write once, run anywhere." — Sun Microsystems</i>
-</p>
-
----
-
 ## 🌐 Connect with Me:
 <p align="center">
   <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/" target="_blank">
