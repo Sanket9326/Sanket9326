@@ -5,10 +5,17 @@
 </p>
 
 ## 💫 About Me:
-- 🔧 **CS Enthusiast** | I specialize in creating robust and scalable applications using **Java**, **Spring Boot**, and **Maven**.
-- 💡 **Current Projects** | Focused on developing innovative solutions with **Java**, **Spring Boot**, **Machine Learning**, and **SQL**.
-- 💻 **Coding Challenges** | Solving complex problems on **LeetCode** and **GeeksforGeeks** to continuously improve my skills.
-- 🏆 **Achievements** | Led my team to victory in the **Dipex2024** & **Expo2024** Hackathons.
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+  <div style="flex: 1;">
+    <p>- 🔧 <strong>CS Enthusiast</strong> | I specialize in creating robust and scalable applications using <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>Maven</strong>.</p>
+    <p>- 💡 <strong>Current Projects</strong> | Focused on developing innovative solutions with <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Machine Learning</strong>, and <strong>SQL</strong>.</p>
+    <p>- 💻 <strong>Coding Challenges</strong> | Solving complex problems on <strong>LeetCode</strong> and <strong>GeeksforGeeks</strong> to continuously improve my skills.</p>
+    <p>- 🏆 <strong>Achievements</strong> | Led my team to victory in the <strong>Dipex2024</strong> & <strong>Expo2024</strong> Hackathons.</p>
+  </div>
+  <div style="flex: 0 0 auto; margin-left: 20px;">
+    <img src="https://media.giphy.com/media/3NyvreZAtNLrNKTrKa/giphy.gif" alt="Technology GIF" style="border-radius: 10px; width: 300px;" />
+  </div>
+</div>
 
 ---
 
