@@ -24,6 +24,7 @@
   <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/AngularJS-%23E23237.svg?style=for-the-badge&logo=angular&logoColor=white" alt="AngularJS" />
+  <img src="https://img.shields.io/badge/Data_Structures-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Data Structures" />
 </p>
 
 ---
@@ -59,6 +60,18 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanket9326&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+---
+
+### 🔗 LeetCode and GeeksforGeeks:
+<p align="center">
+  <a href="https://leetcode.com/u/Sanket9326/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-%23F7DF1E.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/user/sawantsasrdd/" target="_blank">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-%2361B72E.svg?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
+  </a>
 </p>
 
 ---
