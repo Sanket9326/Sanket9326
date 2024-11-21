@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hello, I'm Sanket Sambhaji Sawant!</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=CS+Enthusiast+%7C+Full-Stack+Developer+%7C+Problem+Solver;Java+%7C+Spring+Boot+%7C+Angular+%7C+TypeScript+Expert;Building+Scalable+and+Impactful+Tech+Solutions!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=CS+Enthusiast+%7C+Full-Stack+Developer+%7C+Problem+Solver;Java+%7C+Spring+Boot+%7C+Angular+%7C+TypeScript;Building+Scalable+and+Impactful+Tech+Solutions!" alt="Typing SVG" />
 </p>
 
 ---
