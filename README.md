@@ -1,7 +1,7 @@
-<h1 align="center">👋 Hi, I'm Sanket Sambhaji Sawant!</h1>
+<h1 align="center">👋 Hello, I'm Sanket Sambhaji Sawant!</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=CS+Enthusiast+%7C+Java+%7C+Spring+Boot+%7C+Angular;Problem+Solver+%7C+Tech+Innovator+%7C+Life-long+Learner;Let's+Create+Something+Amazing+Together!+" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=CS+Enthusiast+%7C+Full-Stack+Developer+%7C+Problem+Solver;Java+%7C+Spring+Boot+%7C+Angular+%7C+TypeScript+Expert;Building+Scalable+and+Impactful+Tech+Solutions!" alt="Typing SVG" />
 </p>
 
 ---
@@ -10,12 +10,14 @@
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
   <div style="flex: 1;">
-    <p>Hi there! I'm a tech enthusiast with a passion for building scalable and innovative solutions that solve real-world problems.</p>
+    <p>
+      I'm a dedicated full-stack developer with a passion for crafting efficient, scalable, and user-friendly software solutions. Leveraging my expertise in <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Angular</strong>, and <strong>TypeScript</strong>, I take pride in delivering high-quality applications that solve real-world problems.
+    </p>
     <ul>
-      <li>🌱 <strong>Learning:</strong> Currently enhancing my skills in <strong>TypeScript</strong> and mastering advanced design patterns in <strong>Spring Boot</strong>.</li>
-      <li>⚙️ <strong>Developer Tools:</strong> Versed in <strong>Tomcat</strong>, <strong>Maven</strong>, and modern full-stack development workflows.</li>
-      <li>🚀 <strong>Hobbies:</strong> Solving coding challenges, exploring tech blogs, and tinkering with new frameworks and APIs.</li>
-      <li>🧠 <strong>Philosophy:</strong> Constant learning and adaptability are the keys to innovation!</li>
+      <li>⚡ <strong>Problem Solver:</strong> I thrive on tackling complex challenges and turning them into opportunities to innovate and excel.</li>
+      <li>🚀 <strong>Tech Enthusiast:</strong> Constantly exploring the latest trends in technology to enhance my projects and broaden my skills.</li>
+      <li>🎯 <strong>Visionary:</strong> Driven to build impactful solutions that not only meet user needs but exceed expectations.</li>
+      <li>🌟 <strong>Team Player:</strong> I believe in collaboration and teamwork to drive success and achieve shared goals.</li>
     </ul>
   </div>
   <div style="flex: 0 0 auto; margin-left: 20px;">
@@ -25,7 +27,7 @@
 
 ---
 
-## 🔝 Core Tech Stack:
+## 🔝 Tech Stack:
 <p align="center">
   <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
@@ -38,28 +40,16 @@
 
 ---
 
-## 🌐 Connect with Me:
-<p align="center">
-  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/sanket_9326?igsh=MWRxbmJ3Yzk5bWduNQ==" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-</p>
-
----
-
-## 📈 Competitive Programming Stats:
-
+## 🌟 Highlights:
+### 🏆 **Competitive Programming**:
 <div align="center">
-  <p><strong>🎯 LeetCode Profile:</strong> <a href="https://leetcode.com/u/Sanket9326/" target="_blank">View My LeetCode</a></p>
-  <img src="https://leetcard.jacoblin.cool/u/Sanket9326?theme=dark&ext=contest" alt="LeetCode Card" />
+  <p><strong>🎯 LeetCode Profile:</strong> <a href="https://leetcode.com/Sanket9326/" target="_blank">Visit My LeetCode</a></p>
+  <img src="https://leetcard.jacoblin.cool/Sanket9326?theme=dark&ext=heatmap&font=Source%20Code%20Pro" alt="LeetCode Card" />
 </div>
 
 ---
 
-## 🚀 GitHub Stats:
+### 🚀 **GitHub Stats**:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sanket9326&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
@@ -72,10 +62,22 @@
 
 ---
 
+### 🌐 **Connect with Me**:
+<p align="center">
+  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.instagram.com/sanket_9326?igsh=MWRxbmJ3Yzk5bWduNQ==" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+</p>
+
+---
+
 ### 💡 Fun Fact:
 <p align="center">
   <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" alt="Coding Fun" width="400px" />
 </p>
 <p align="center">
-  <i>Programming isn't just about code; it's about making life simpler, solving problems, and being a creator in the digital world!</i>
+  <i>"Code is like humor. When you have to explain it, it’s bad."</i>
 </p>
