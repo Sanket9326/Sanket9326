@@ -1,0 +1,103 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.5" stop-color="#0a0f1e"/>
+      <stop offset="1" stop-color="#060b16"/>
+    </linearGradient>
+
+    <!-- Shimmer gradient sweeping across the name -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#3b82f6"/>
+      <stop offset="35%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#e0f7ff"/>
+      <stop offset="65%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Accent line gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .name   { font: 800 64px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: 1px; }
+      .role   { font: 500 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 4px; }
+      .tag    { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #22d3ee; letter-spacing: 1px; }
+      .tagbox { fill: rgba(34,211,238,0.06); stroke: rgba(34,211,238,0.35); rx: 16; }
+      .grid   { stroke: #22d3ee; stroke-opacity: 0.06; }
+      .p      { fill: #22d3ee; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <ellipse cx="600" cy="180" rx="520" ry="200" fill="url(#glow)"/>
+
+  <!-- Perspective grid (fakes depth) -->
+  <g class="grid" stroke-width="1">
+    <path d="M0 300 L1200 300"/><path d="M0 320 L1200 320"/><path d="M0 342 L1200 342"/>
+    <path d="M100 360 L340 240"/><path d="M300 360 L470 240"/><path d="M500 360 L590 240"/>
+    <path d="M700 360 L610 240"/><path d="M900 360 L730 240"/><path d="M1100 360 L860 240"/>
+    <animate attributeName="stroke-opacity" values="0.04;0.12;0.04" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g>
+    <circle class="p" cx="140" cy="90"  r="2.5" opacity="0.7">
+      <animate attributeName="cy" values="90;70;90" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="p" cx="1050" cy="110" r="3" opacity="0.5">
+      <animate attributeName="cy" values="110;135;110" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="p" cx="960" cy="60" r="2" opacity="0.6">
+      <animate attributeName="cy" values="60;80;60" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="p" cx="240" cy="220" r="2" opacity="0.4">
+      <animate attributeName="cy" values="220;200;220" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="p" cx="820" cy="240" r="2.5" opacity="0.5">
+      <animate attributeName="cy" values="240;218;240" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="p" cx="420" cy="70" r="1.8" opacity="0.5">
+      <animate attributeName="cy" values="70;92;70" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Name + role -->
+  <text x="600" y="150" text-anchor="middle" class="name" fill="url(#shimmer)">SANKET SAWANT</text>
+  <text x="600" y="192" text-anchor="middle" class="role">S O F T W A R E&#160;&#160;E N G I N E E R&#160;&#160;·&#160;&#160;S D E - 2&#160;&#160;@&#160;&#160;X P E R A T E</text>
+
+  <!-- Animated accent line -->
+  <rect x="350" y="215" width="500" height="2" fill="url(#accent)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tag chips -->
+  <g>
+    <rect class="tagbox" x="330" y="245" width="150" height="34"/>
+    <text x="405" y="267" text-anchor="middle" class="tag">.NET / C#</text>
+
+    <rect class="tagbox" x="500" y="245" width="200" height="34"/>
+    <text x="600" y="267" text-anchor="middle" class="tag">DISTRIBUTED SYSTEMS</text>
+
+    <rect class="tagbox" x="720" y="245" width="150" height="34"/>
+    <text x="795" y="267" text-anchor="middle" class="tag">AZURE ☁</text>
+  </g>
+
+  <!-- Blinking cursor terminal hint -->
+  <text x="600" y="320" text-anchor="middle" class="tag" opacity="0.85">~/building-scalable-systems<tspan fill="#e0f7ff">_</tspan>
+    <animate attributeName="opacity" values="0.85;0.3;0.85" dur="1.4s" repeatCount="indefinite"/>
+  </text>
+</svg>
