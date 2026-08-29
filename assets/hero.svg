@@ -1,103 +1,76 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sanket Sawant — Backend Software Engineer</title>
+  <desc id="desc">A modern profile banner highlighting .NET, distributed systems, and Azure.</desc>
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#05070d"/>
-      <stop offset="0.5" stop-color="#0a0f1e"/>
-      <stop offset="1" stop-color="#060b16"/>
+    <linearGradient id="background" x1="44" y1="12" x2="1152" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F" />
+      <stop offset="0.5" stop-color="#0B1023" />
+      <stop offset="1" stop-color="#11112A" />
     </linearGradient>
-
-    <!-- Shimmer gradient sweeping across the name -->
-    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#3b82f6"/>
-      <stop offset="35%" stop-color="#22d3ee"/>
-      <stop offset="50%" stop-color="#e0f7ff"/>
-      <stop offset="65%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    <linearGradient id="border" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.75" />
+      <stop offset="0.48" stop-color="#6366F1" stop-opacity="0.32" />
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0.72" />
     </linearGradient>
-
-    <!-- Accent line gradient -->
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <linearGradient id="name" x1="64" y1="170" x2="580" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC" />
+      <stop offset="0.58" stop-color="#CFFAFE" />
+      <stop offset="1" stop-color="#C4B5FD" />
     </linearGradient>
-
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(946 177) rotate(90) scale(246)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.17" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
     </radialGradient>
-
-    <style>
-      .name   { font: 800 64px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: 1px; }
-      .role   { font: 500 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 4px; }
-      .tag    { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #22d3ee; letter-spacing: 1px; }
-      .tagbox { fill: rgba(34,211,238,0.06); stroke: rgba(34,211,238,0.35); rx: 16; }
-      .grid   { stroke: #22d3ee; stroke-opacity: 0.06; }
-      .p      { fill: #22d3ee; }
-    </style>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="translate(378 430) rotate(-61) scale(303 405)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-opacity="0.045" />
+    </pattern>
+    <filter id="nodeShadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" /></filter>
   </defs>
-
-  <!-- Background -->
-  <rect width="1200" height="360" fill="url(#bg)"/>
-  <ellipse cx="600" cy="180" rx="520" ry="200" fill="url(#glow)"/>
-
-  <!-- Perspective grid (fakes depth) -->
-  <g class="grid" stroke-width="1">
-    <path d="M0 300 L1200 300"/><path d="M0 320 L1200 320"/><path d="M0 342 L1200 342"/>
-    <path d="M100 360 L340 240"/><path d="M300 360 L470 240"/><path d="M500 360 L590 240"/>
-    <path d="M700 360 L610 240"/><path d="M900 360 L730 240"/><path d="M1100 360 L860 240"/>
-    <animate attributeName="stroke-opacity" values="0.04;0.12;0.04" dur="6s" repeatCount="indefinite"/>
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#background)" />
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#grid)" />
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#cyanGlow)" />
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#violetGlow)" />
+  <rect x="1" y="1" width="1198" height="418" rx="28" stroke="url(#border)" stroke-width="2" />
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <g transform="translate(64 62)">
+      <rect width="148" height="30" rx="15" fill="#22D3EE" fill-opacity="0.09" stroke="#22D3EE" stroke-opacity="0.36" />
+      <circle cx="18" cy="15" r="4" fill="#22D3EE" />
+      <text x="31" y="20" fill="#A5F3FC" font-size="12" font-weight="700" letter-spacing="1.5">HELLO, I'M</text>
+    </g>
+    <text x="60" y="172" fill="url(#name)" font-size="62" font-weight="800" letter-spacing="-1.8">SANKET SAWANT</text>
+    <text x="64" y="216" fill="#C7D2FE" font-size="23" font-weight="650" letter-spacing="0.3">Backend Software Engineer</text>
+    <text x="64" y="255" fill="#94A3B8" font-size="17">I build reliable, event-driven systems that stay</text>
+    <text x="64" y="281" fill="#94A3B8" font-size="17">predictable when traffic spikes and services fail.</text>
+    <g transform="translate(64 318)">
+      <g><rect width="126" height="38" rx="11" fill="#F8FAFC" fill-opacity="0.055" stroke="#CBD5E1" stroke-opacity="0.16" /><text x="63" y="24" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="650">C# / .NET</text></g>
+      <g transform="translate(140)"><rect width="184" height="38" rx="11" fill="#F8FAFC" fill-opacity="0.055" stroke="#CBD5E1" stroke-opacity="0.16" /><text x="92" y="24" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="650">DISTRIBUTED SYSTEMS</text></g>
+      <g transform="translate(338)"><rect width="116" height="38" rx="11" fill="#F8FAFC" fill-opacity="0.055" stroke="#CBD5E1" stroke-opacity="0.16" /><text x="58" y="24" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="650">AZURE</text></g>
+    </g>
+    <g transform="translate(692 50)">
+      <rect width="448" height="320" rx="24" fill="#020617" fill-opacity="0.34" stroke="#94A3B8" stroke-opacity="0.11" />
+      <text x="28" y="36" fill="#64748B" font-size="11" font-weight="700" letter-spacing="1.8">RELIABILITY, BY DESIGN</text>
+      <g stroke="#64748B" stroke-opacity="0.42" stroke-width="1.5"><path d="M224 160 L95 92" /><path d="M224 160 L353 92" /><path d="M224 160 L92 235" /><path d="M224 160 L356 235" /></g>
+      <g stroke="#22D3EE" stroke-opacity="0.22" stroke-width="6" filter="url(#nodeShadow)"><path d="M224 160 L95 92" /><path d="M224 160 L353 92" /><path d="M224 160 L92 235" /><path d="M224 160 L356 235" /></g>
+      <g transform="translate(164 104)">
+        <circle cx="60" cy="56" r="56" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.8" stroke-width="2" />
+        <circle cx="60" cy="56" r="45" fill="#22D3EE" fill-opacity="0.08" />
+        <text x="60" y="51" text-anchor="middle" fill="#ECFEFF" font-size="22" font-weight="800">.NET</text>
+        <text x="60" y="72" text-anchor="middle" fill="#67E8F9" font-size="10" font-weight="700" letter-spacing="1.2">SERVICES</text>
+      </g>
+      <g transform="translate(47 62)"><rect width="96" height="52" rx="15" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.65" /><text x="48" y="32" text-anchor="middle" fill="#C7D2FE" font-size="12" font-weight="700">KAFKA</text></g>
+      <g transform="translate(305 62)"><rect width="96" height="52" rx="15" fill="#0F172A" stroke="#A78BFA" stroke-opacity="0.65" /><text x="48" y="32" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700">AZURE</text></g>
+      <g transform="translate(44 209)"><rect width="96" height="52" rx="15" fill="#0F172A" stroke="#FB7185" stroke-opacity="0.58" /><text x="48" y="32" text-anchor="middle" fill="#FECDD3" font-size="12" font-weight="700">REDIS</text></g>
+      <g transform="translate(308 209)"><rect width="96" height="52" rx="15" fill="#0F172A" stroke="#34D399" stroke-opacity="0.58" /><text x="48" y="32" text-anchor="middle" fill="#A7F3D0" font-size="12" font-weight="700">OBSERVE</text></g>
+      <g transform="translate(28 284)">
+        <circle cx="5" cy="5" r="5" fill="#34D399" /><text x="18" y="10" fill="#94A3B8" font-size="11" font-weight="650">RETRY</text>
+        <circle cx="88" cy="5" r="5" fill="#22D3EE" /><text x="101" y="10" fill="#94A3B8" font-size="11" font-weight="650">IDEMPOTENCY</text>
+        <circle cx="223" cy="5" r="5" fill="#A78BFA" /><text x="236" y="10" fill="#94A3B8" font-size="11" font-weight="650">DLQ</text>
+        <circle cx="286" cy="5" r="5" fill="#FB7185" /><text x="299" y="10" fill="#94A3B8" font-size="11" font-weight="650">BACKPRESSURE</text>
+      </g>
+    </g>
   </g>
-
-  <!-- Floating particles -->
-  <g>
-    <circle class="p" cx="140" cy="90"  r="2.5" opacity="0.7">
-      <animate attributeName="cy" values="90;70;90" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="p" cx="1050" cy="110" r="3" opacity="0.5">
-      <animate attributeName="cy" values="110;135;110" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="p" cx="960" cy="60" r="2" opacity="0.6">
-      <animate attributeName="cy" values="60;80;60" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="p" cx="240" cy="220" r="2" opacity="0.4">
-      <animate attributeName="cy" values="220;200;220" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="p" cx="820" cy="240" r="2.5" opacity="0.5">
-      <animate attributeName="cy" values="240;218;240" dur="6.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="p" cx="420" cy="70" r="1.8" opacity="0.5">
-      <animate attributeName="cy" values="70;92;70" dur="9s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Name + role -->
-  <text x="600" y="150" text-anchor="middle" class="name" fill="url(#shimmer)">SANKET SAWANT</text>
-  <text x="600" y="192" text-anchor="middle" class="role">S O F T W A R E&#160;&#160;E N G I N E E R&#160;&#160;·&#160;&#160;S D E - 2&#160;&#160;@&#160;&#160;X P E R A T E</text>
-
-  <!-- Animated accent line -->
-  <rect x="350" y="215" width="500" height="2" fill="url(#accent)">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Tag chips -->
-  <g>
-    <rect class="tagbox" x="330" y="245" width="150" height="34"/>
-    <text x="405" y="267" text-anchor="middle" class="tag">.NET / C#</text>
-
-    <rect class="tagbox" x="500" y="245" width="200" height="34"/>
-    <text x="600" y="267" text-anchor="middle" class="tag">DISTRIBUTED SYSTEMS</text>
-
-    <rect class="tagbox" x="720" y="245" width="150" height="34"/>
-    <text x="795" y="267" text-anchor="middle" class="tag">AZURE ☁</text>
-  </g>
-
-  <!-- Blinking cursor terminal hint -->
-  <text x="600" y="320" text-anchor="middle" class="tag" opacity="0.85">~/building-scalable-systems<tspan fill="#e0f7ff">_</tspan>
-    <animate attributeName="opacity" values="0.85;0.3;0.85" dur="1.4s" repeatCount="indefinite"/>
-  </text>
 </svg>

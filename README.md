@@ -1,196 +1,65 @@
-<!-- ═══════════════════════ HERO ═══════════════════════ -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Sanket Sawant — Software Engineer"/>
+  <img src="./assets/hero.svg" width="100%" alt="Sanket Sawant — Backend Software Engineer building reliable distributed systems" />
 </p>
 
 <p align="center">
-  <img src="assets/marquee.svg" width="100%" alt="tech marquee"/>
+  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://leetcode.com/u/Sanket9326/"><strong>LeetCode</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.geeksforgeeks.org/user/sawantsasrdd/"><strong>GeeksforGeeks</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Sanket9326?tab=repositories"><strong>Repositories</strong></a>
 </p>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/">
-    <img src="https://img.shields.io/badge/LinkedIn-0e1525?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/Sanket9326/">
-    <img src="https://img.shields.io/badge/LeetCode-0e1525?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/>
-  </a>
-  &nbsp;
-  <a href="mailto:your-email@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-0e1525?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
-  </a>
-</div>
+## Hello, I'm Sanket 👋
 
-<br/>
+I'm a backend-focused software engineer who enjoys turning complex workflows into systems that are predictable, observable, and easy to operate.
 
-<!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
+I currently work as an **SDE-2 at Xperate**, building .NET services and cloud integrations on Azure. My interests sit at the intersection of **distributed systems**, **event-driven architecture**, and **system design**—especially the reliability details that matter when services fail, messages arrive twice, or traffic spikes.
 
-## `> whoami`
+- 🔭 Building scalable platforms with **C#, .NET, Kafka, Redis, and Azure**
+- 🧭 Designing for **idempotency, retries, dead-letter queues, and observability**
+- 🌱 Exploring deeper patterns in **cloud-native delivery and distributed data**
+- 🧠 Solved **1,400+ algorithm problems** on LeetCode
 
-<table>
-<tr>
-<td width="60%" valign="top">
+## Selected systems
 
-I design and build **backend systems that don't fall over** — event-driven pipelines, enterprise integrations, and APIs that stay fast under load.
+### [Distributed Search Engine →](https://github.com/Sanket9326/Distrubuted-Search-Engine)
 
-Currently **SDE-2 at Xperate**, where I ship .NET services on Azure and wire up systems that talk to each other reliably: Kafka, Service Bus, retries, DLQs, idempotency — the unglamorous machinery that makes distributed systems trustworthy.
+An event-driven document search platform with department-aware hybrid retrieval and grounded RAG answers. Documents move through a Kafka ingestion pipeline into PostgreSQL and Qdrant, with Redis-backed retries, reranking, metrics, and GitOps delivery.
 
-```csharp
-var sanket = new Engineer
-{
-    Role      = "SDE-2 @ Xperate",
-    Obsession = "Distributed Systems & System Design",
-    Learning  = ["Kafka internals", "Redis patterns"],
-    LeetCode  = 1400,   // problems solved, still counting
-    Belief    = "Clean architecture > clever code"
-};
-```
+`C#` `ASP.NET Core` `Kafka` `Redis` `Qdrant` `Angular` `Kubernetes` `Argo CD`
 
-</td>
-<td width="40%" valign="top">
+### [StreamForge →](https://github.com/Sanket9326/Distributed-StreamForge)
 
-### ⚡ At a glance
+A learning-focused distributed video platform built with .NET microservices and Angular. Its ingestion slice streams large uploads to MinIO, commits metadata and an outbox event to PostgreSQL, and publishes processing events to Kafka asynchronously.
 
-| | |
-|---|---|
-| 🧠 **DSA** | 1400+ LeetCode · 1450+ rating |
-| 🏗️ **Builds** | Event-driven backends |
-| ☁️ **Cloud** | Azure (Functions · APIM · Bus) |
-| 🔥 **Core** | C# · .NET · Angular |
-| 📡 **Messaging** | Kafka · Redis · Pub/Sub |
+`.NET 10` `YARP` `PostgreSQL` `MinIO` `Kafka` `Angular` `Docker`
 
-</td>
-</tr>
-</table>
+### [Distributed Event Forwarder →](https://github.com/Sanket9326/Distributed-Event-Forwarder)
 
-<br/>
+A fault-tolerant event forwarding engine that consumes Kafka messages, applies routing and downstream rate limits, and handles delivery with distributed locking, idempotency, delayed retries, and dead-letter queues.
 
-<!-- ═══════════════════════ ARSENAL ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
+`.NET` `Kafka` `Redis` `Lua` `Docker` `Prometheus`
 
-## `> tech --stack`
+## Core toolbox
 
-<div align="center">
+<p align="center">
+  <img src="./assets/toolbox.svg" width="100%" alt="Sanket's core technology toolbox: backend, distributed systems, cloud, data, and frontend technologies" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,python,java&theme=dark" alt="languages"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=azure,docker,redis,mysql,git,postman&theme=dark" alt="infra"/>
+## How I approach engineering
 
-<br/><br/>
+> **Make the happy path fast. Make the failure path deliberate. Make both observable.**
 
-`ASP.NET Core` `Entity Framework` `SignalR` `REST APIs` `RxJS`
-<br/>
-`Kafka` `Azure Service Bus` `Azure Functions` `APIM` `SQL Server`
-<br/>
-`Event-Driven Architecture` `DLQ` `Retry Patterns` `Idempotency` `Pub/Sub`
+I value clear boundaries, small contracts, and operationally boring systems. A strong design should explain not only how data moves when everything works, but also what happens during retries, partial failures, duplicate delivery, and recovery.
 
-</div>
+## Beyond the architecture diagrams
 
-<br/>
+I sharpen my problem-solving through data structures and algorithms, with **1,400+ problems solved** on [LeetCode](https://leetcode.com/u/Sanket9326/). I also enjoy learning by building complete systems—from Angular interfaces to asynchronous workers and the infrastructure between them.
 
-<!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## `> projects --featured`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛰️ &nbsp;uForwarder
-
-> Distributed event forwarder inspired by **Uber's architecture**
-
-A Kafka-based message forwarding engine built for scale and failure:
-
-- ⚙️ Multi-instance horizontal scaling
-- 🔁 Retry mechanism with backoff
-- ☠️ Dead Letter Queue for poison messages
-- 🧾 Idempotent processing — no double delivery
-
-<img src="https://img.shields.io/badge/C%23-0e1525?style=flat-square&logo=dotnet&logoColor=22d3ee"/> <img src="https://img.shields.io/badge/Kafka-0e1525?style=flat-square&logo=apachekafka&logoColor=22d3ee"/> <img src="https://img.shields.io/badge/Docker-0e1525?style=flat-square&logo=docker&logoColor=22d3ee"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔗 &nbsp;Enterprise Integrations
-
-> **Cloud Coach ↔ NetSuite** bi-directional sync platform
-
-Production integration layer moving business-critical data reliably:
-
-- 📨 Azure Service Bus messaging backbone
-- ⚡ Serverless async processing via Azure Functions
-- 🗺️ Complex data mapping between domains
-- 🛡️ Guaranteed, reliable message processing
-
-<img src="https://img.shields.io/badge/Azure-0e1525?style=flat-square&logo=cloud66&logoColor=22d3ee"/> <img src="https://img.shields.io/badge/.NET-0e1525?style=flat-square&logo=dotnet&logoColor=22d3ee"/> <img src="https://img.shields.io/badge/Service_Bus-0e1525?style=flat-square&logo=azurefunctions&logoColor=22d3ee"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════ METRICS ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## `> stats --live`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=sanket9326&show_icons=true&hide_border=true&bg_color=05070d&title_color=22d3ee&icon_color=22d3ee&text_color=94a3b8&ring_color=22d3ee" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanket9326&layout=compact&hide_border=true&bg_color=05070d&title_color=22d3ee&text_color=94a3b8" alt="Top languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=sanket9326&hide_border=true&background=05070d&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=94a3b8&currStreakNum=e0f7ff&sideNums=e0f7ff&dates=475569" alt="Streak"/>
-
-<br/><br/>
-
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanket9326&bg_color=05070d&color=94a3b8&line=22d3ee&point=e0f7ff&area=true&area_color=22d3ee&hide_border=true" alt="Activity graph"/>
-
-<br/>
-
-<!-- Uncomment after adding the Platane/snk workflow:
-<img src="https://raw.githubusercontent.com/sanket9326/sanket9326/output/snake.svg" alt="Contribution snake"/>
--->
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════ LEETCODE ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## `> leetcode --grind`
-
-<div align="center">
-
-<a href="https://leetcode.com/Sanket9326/">
-  <img src="https://leetcard.jacoblin.cool/Sanket9326?theme=dark&font=JetBrains+Mono&ext=heatmap&border=0" alt="LeetCode card"/>
-</a>
-
-<br/><br/>
-
-**`1400+ solved`** &nbsp;·&nbsp; **`1450+ contest rating`** &nbsp;·&nbsp; **`33 badges`**
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-<br/>
-
-<div align="center">
-
-*"First, solve the problem. Then, write the code."* — John Johnson
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,50:0e7490,100:22d3ee&height=110&section=footer" width="100%" alt=""/>
-
-</div>
+<p align="center">
+  <strong>Have an interesting backend or distributed-systems problem?</strong><br />
+  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/">Let's connect on LinkedIn.</a>
+</p>

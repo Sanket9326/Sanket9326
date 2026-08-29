@@ -1,0 +1,57 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sanket's core technology toolbox</title>
+  <desc id="desc">Backend, distributed systems, cloud and delivery, data and interface technologies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F" />
+      <stop offset="1" stop-color="#11112A" />
+    </linearGradient>
+    <linearGradient id="line" x1="30" y1="0" x2="1170" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" />
+      <stop offset="0.5" stop-color="#6366F1" />
+      <stop offset="1" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="328" rx="24" fill="url(#bg)" stroke="#334155" stroke-opacity="0.55" stroke-width="2" />
+  <rect x="30" y="28" width="1140" height="2" rx="1" fill="url(#line)" />
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="38" y="65" fill="#F8FAFC" font-size="17" font-weight="800" letter-spacing="1">TECHNOLOGIES I REACH FOR</text>
+    <text x="1162" y="65" text-anchor="end" fill="#64748B" font-size="12" font-weight="650">BUILD · SHIP · OPERATE</text>
+    <g transform="translate(38 88)">
+      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#22D3EE" stroke-opacity="0.26" />
+      <circle cx="26" cy="30" r="6" fill="#22D3EE" />
+      <text x="42" y="35" fill="#A5F3FC" font-size="12" font-weight="800" letter-spacing="1.4">BACKEND</text>
+      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">C# · .NET</text>
+      <text x="24" y="109" fill="#CBD5E1" font-size="14">ASP.NET Core · EF Core</text>
+      <text x="24" y="138" fill="#CBD5E1" font-size="14">REST APIs · SignalR</text>
+      <text x="24" y="167" fill="#94A3B8" font-size="13">Workers · YARP</text>
+    </g>
+    <g transform="translate(324 88)">
+      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#818CF8" stroke-opacity="0.28" />
+      <circle cx="26" cy="30" r="6" fill="#818CF8" />
+      <text x="42" y="35" fill="#C7D2FE" font-size="12" font-weight="800" letter-spacing="1.4">DISTRIBUTED</text>
+      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">Kafka · Redis</text>
+      <text x="24" y="109" fill="#CBD5E1" font-size="14">Pub/Sub · Service Bus</text>
+      <text x="24" y="138" fill="#CBD5E1" font-size="14">Retries · DLQ · Outbox</text>
+      <text x="24" y="167" fill="#94A3B8" font-size="13">Idempotency · Rate limits</text>
+    </g>
+    <g transform="translate(610 88)">
+      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#A78BFA" stroke-opacity="0.28" />
+      <circle cx="26" cy="30" r="6" fill="#A78BFA" />
+      <text x="42" y="35" fill="#DDD6FE" font-size="12" font-weight="800" letter-spacing="1.4">CLOUD + DELIVERY</text>
+      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">Azure · Docker</text>
+      <text x="24" y="109" fill="#CBD5E1" font-size="14">Functions · APIM</text>
+      <text x="24" y="138" fill="#CBD5E1" font-size="14">Kubernetes · Helm</text>
+      <text x="24" y="167" fill="#94A3B8" font-size="13">Argo CD · GitHub Actions</text>
+    </g>
+    <g transform="translate(896 88)">
+      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#34D399" stroke-opacity="0.26" />
+      <circle cx="26" cy="30" r="6" fill="#34D399" />
+      <text x="42" y="35" fill="#A7F3D0" font-size="12" font-weight="800" letter-spacing="1.4">DATA + INTERFACE</text>
+      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">SQL · PostgreSQL</text>
+      <text x="24" y="109" fill="#CBD5E1" font-size="14">MinIO · Qdrant</text>
+      <text x="24" y="138" fill="#CBD5E1" font-size="14">Angular · TypeScript</text>
+      <text x="24" y="167" fill="#94A3B8" font-size="13">Prometheus · Grafana</text>
+    </g>
+  </g>
+</svg>
