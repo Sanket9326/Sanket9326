@@ -1,65 +1,77 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Sanket Sawant — Backend Software Engineer building reliable distributed systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Sanket Sawant — Software Engineer building distributed systems" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://leetcode.com/u/Sanket9326/"><strong>LeetCode</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.geeksforgeeks.org/user/sawantsasrdd/"><strong>GeeksforGeeks</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Sanket9326?tab=repositories"><strong>Repositories</strong></a>
+  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/">LinkedIn</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://leetcode.com/u/Sanket9326/">LeetCode</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://www.geeksforgeeks.org/user/sawantsasrdd/">GeeksforGeeks</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/Sanket9326?tab=repositories">All repositories</a>
 </p>
 
-## Hello, I'm Sanket 👋
+## `about.me`
 
-I'm a backend-focused software engineer who enjoys turning complex workflows into systems that are predictable, observable, and easy to operate.
+I’m an **SDE-2 at Xperate** focused on backend engineering and distributed systems. I build .NET services, event-driven workflows, and cloud integrations that remain predictable through duplicate messages, partial failures, retries, and traffic spikes.
 
-I currently work as an **SDE-2 at Xperate**, building .NET services and cloud integrations on Azure. My interests sit at the intersection of **distributed systems**, **event-driven architecture**, and **system design**—especially the reliability details that matter when services fail, messages arrive twice, or traffic spikes.
+```text
+current_focus   = distributed platforms, event-driven architecture, system design
+building_with   = C# / .NET, Kafka, Redis, PostgreSQL, Azure, Docker, Kubernetes
+engineering_for = reliability, observability, clear contracts, safe recovery
+```
 
-- 🔭 Building scalable platforms with **C#, .NET, Kafka, Redis, and Azure**
-- 🧭 Designing for **idempotency, retries, dead-letter queues, and observability**
-- 🌱 Exploring deeper patterns in **cloud-native delivery and distributed data**
-- 🧠 Solved **1,400+ algorithm problems** on LeetCode
+## `featured.builds`
 
-## Selected systems
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sanket9326/Distributed-StreamForge">StreamForge ↗</a></h3>
+      <p>A production-inspired video platform with resumable uploads, asynchronous transcoding, adaptive HLS delivery, caching, and observable processing pipelines.</p>
+      <p><code>.NET 10</code> <code>Angular</code> <code>Kafka</code> <code>PostgreSQL</code> <code>MinIO</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sanket9326/Distrubuted-Search-Engine">Distributed Search Engine ↗</a></h3>
+      <p>An event-driven document search platform combining hybrid retrieval, grounded RAG answers, reranking, retries, metrics, and GitOps delivery.</p>
+      <p><code>ASP.NET Core</code> <code>Kafka</code> <code>Qdrant</code> <code>Redis</code> <code>Angular</code> <code>Kubernetes</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sanket9326/Distributed-Event-Forwarder">Distributed Event Forwarder ↗</a></h3>
+      <p>A fault-tolerant forwarding engine with downstream rate limits, distributed locking, idempotent delivery, delayed retries, and dead-letter handling.</p>
+      <p><code>.NET</code> <code>Kafka</code> <code>Redis</code> <code>Lua</code> <code>Prometheus</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sanket9326/Live-Tracking-System">Live Tracking System ↗</a></h3>
+      <p>A real-time location tracking application with a Spring Boot backend, Angular client, and persistent tracking data in MySQL.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>Angular</code> <code>TypeScript</code> <code>MySQL</code></p>
+    </td>
+  </tr>
+</table>
 
-### [Distributed Search Engine →](https://github.com/Sanket9326/Distrubuted-Search-Engine)
-
-An event-driven document search platform with department-aware hybrid retrieval and grounded RAG answers. Documents move through a Kafka ingestion pipeline into PostgreSQL and Qdrant, with Redis-backed retries, reranking, metrics, and GitOps delivery.
-
-`C#` `ASP.NET Core` `Kafka` `Redis` `Qdrant` `Angular` `Kubernetes` `Argo CD`
-
-### [StreamForge →](https://github.com/Sanket9326/Distributed-StreamForge)
-
-A learning-focused distributed video platform built with .NET microservices and Angular. Its ingestion slice streams large uploads to MinIO, commits metadata and an outbox event to PostgreSQL, and publishes processing events to Kafka asynchronously.
-
-`.NET 10` `YARP` `PostgreSQL` `MinIO` `Kafka` `Angular` `Docker`
-
-### [Distributed Event Forwarder →](https://github.com/Sanket9326/Distributed-Event-Forwarder)
-
-A fault-tolerant event forwarding engine that consumes Kafka messages, applies routing and downstream rate limits, and handles delivery with distributed locking, idempotency, delayed retries, and dead-letter queues.
-
-`.NET` `Kafka` `Redis` `Lua` `Docker` `Prometheus`
-
-## Core toolbox
+## `engineering.stack`
 
 <p align="center">
-  <img src="./assets/toolbox.svg" width="100%" alt="Sanket's core technology toolbox: backend, distributed systems, cloud, data, and frontend technologies" />
+  <img src="./assets/toolbox.svg" width="100%" alt="Sanket's engineering stack represented as a typed configuration object" />
 </p>
 
-## How I approach engineering
+## `operating.principles`
 
-> **Make the happy path fast. Make the failure path deliberate. Make both observable.**
+```text
+01  Make the happy path fast.
+02  Make the failure path deliberate.
+03  Make both observable.
+```
 
-I value clear boundaries, small contracts, and operationally boring systems. A strong design should explain not only how data moves when everything works, but also what happens during retries, partial failures, duplicate delivery, and recovery.
+I prefer explicit service boundaries, small contracts, and systems that explain how they recover—not only how they run when everything is healthy. That means thinking about idempotency, backpressure, retries, dead-letter queues, and telemetry as design inputs rather than afterthoughts.
 
-## Beyond the architecture diagrams
+## `problem.solving`
 
-I sharpen my problem-solving through data structures and algorithms, with **1,400+ problems solved** on [LeetCode](https://leetcode.com/u/Sanket9326/). I also enjoy learning by building complete systems—from Angular interfaces to asynchronous workers and the infrastructure between them.
+Beyond system design, I keep my fundamentals sharp through data structures and algorithms. I’ve solved **1,400+ problems on [LeetCode](https://leetcode.com/u/Sanket9326/)** and continue to practice across competitive-programming platforms.
 
 <p align="center">
-  <strong>Have an interesting backend or distributed-systems problem?</strong><br />
-  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/">Let's connect on LinkedIn.</a>
+  <strong>Building something reliability-sensitive?</strong><br />
+  <a href="https://www.linkedin.com/in/sanket-sawant-02b80a252/">Let’s talk engineering.</a>
 </p>

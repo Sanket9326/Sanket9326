@@ -1,57 +1,47 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Sanket's core technology toolbox</title>
-  <desc id="desc">Backend, distributed systems, cloud and delivery, data and interface technologies.</desc>
+<svg width="1200" height="350" viewBox="0 0 1200 350" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sanket's engineering stack</title>
+  <desc id="desc">A code-styled overview of backend, messaging, data, cloud, delivery, frontend, and observability technologies.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F" />
-      <stop offset="1" stop-color="#11112A" />
+    <linearGradient id="bg" x1="18" y1="0" x2="1178" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="line" x1="30" y1="0" x2="1170" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" />
-      <stop offset="0.5" stop-color="#6366F1" />
-      <stop offset="1" stop-color="#A855F7" />
+    <linearGradient id="border" x1="0" y1="0" x2="1200" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0.45"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1198" height="328" rx="24" fill="url(#bg)" stroke="#334155" stroke-opacity="0.55" stroke-width="2" />
-  <rect x="30" y="28" width="1140" height="2" rx="1" fill="url(#line)" />
-  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="38" y="65" fill="#F8FAFC" font-size="17" font-weight="800" letter-spacing="1">TECHNOLOGIES I REACH FOR</text>
-    <text x="1162" y="65" text-anchor="end" fill="#64748B" font-size="12" font-weight="650">BUILD · SHIP · OPERATE</text>
-    <g transform="translate(38 88)">
-      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#22D3EE" stroke-opacity="0.26" />
-      <circle cx="26" cy="30" r="6" fill="#22D3EE" />
-      <text x="42" y="35" fill="#A5F3FC" font-size="12" font-weight="800" letter-spacing="1.4">BACKEND</text>
-      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">C# · .NET</text>
-      <text x="24" y="109" fill="#CBD5E1" font-size="14">ASP.NET Core · EF Core</text>
-      <text x="24" y="138" fill="#CBD5E1" font-size="14">REST APIs · SignalR</text>
-      <text x="24" y="167" fill="#94A3B8" font-size="13">Workers · YARP</text>
+
+  <rect x="1" y="1" width="1198" height="348" rx="20" fill="url(#bg)" stroke="url(#border)" stroke-width="2"/>
+  <path d="M0 50H1200" stroke="#334155" stroke-opacity="0.7"/>
+  <g font-family="Cascadia Code, SFMono-Regular, Consolas, Liberation Mono, monospace">
+    <circle cx="26" cy="25" r="6" fill="#FF5F56"/>
+    <circle cx="48" cy="25" r="6" fill="#FFBD2E"/>
+    <circle cx="70" cy="25" r="6" fill="#27C93F"/>
+    <text x="94" y="30" fill="#64748B" font-size="12">stack.config.json</text>
+
+    <g font-size="14">
+      <text x="30" y="83" fill="#475569">01</text><text x="66" y="83" fill="#E2E8F0">{</text>
+      <text x="30" y="119" fill="#475569">02</text><text x="88" y="119" fill="#7DD3FC">"backend"</text><text x="168" y="119" fill="#94A3B8">:</text><text x="183" y="119" fill="#86EFAC">["C#", ".NET", "ASP.NET Core", "EF Core", "Java"]</text><text x="619" y="119" fill="#94A3B8">,</text>
+      <text x="30" y="155" fill="#475569">03</text><text x="88" y="155" fill="#7DD3FC">"events"</text><text x="160" y="155" fill="#94A3B8">:</text><text x="175" y="155" fill="#86EFAC">["Kafka", "Redis", "Azure Service Bus", "Outbox"]</text><text x="588" y="155" fill="#94A3B8">,</text>
+      <text x="30" y="191" fill="#475569">04</text><text x="88" y="191" fill="#7DD3FC">"data"</text><text x="152" y="191" fill="#94A3B8">:</text><text x="167" y="191" fill="#86EFAC">["PostgreSQL", "SQL Server", "MinIO", "Qdrant"]</text><text x="572" y="191" fill="#94A3B8">,</text>
+      <text x="30" y="227" fill="#475569">05</text><text x="88" y="227" fill="#7DD3FC">"cloud"</text><text x="160" y="227" fill="#94A3B8">:</text><text x="175" y="227" fill="#86EFAC">["Azure", "Docker", "Kubernetes", "Helm", "Argo CD"]</text><text x="612" y="227" fill="#94A3B8">,</text>
+      <text x="30" y="263" fill="#475569">06</text><text x="88" y="263" fill="#7DD3FC">"interface"</text><text x="184" y="263" fill="#94A3B8">:</text><text x="199" y="263" fill="#86EFAC">["Angular", "TypeScript", "SignalR"]</text><text x="499" y="263" fill="#94A3B8">,</text>
+      <text x="30" y="299" fill="#475569">07</text><text x="88" y="299" fill="#7DD3FC">"observe"</text><text x="176" y="299" fill="#94A3B8">:</text><text x="191" y="299" fill="#86EFAC">["OpenTelemetry", "Prometheus", "Grafana"]</text>
+      <text x="30" y="330" fill="#475569">08</text><text x="66" y="330" fill="#E2E8F0">}</text>
     </g>
-    <g transform="translate(324 88)">
-      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#818CF8" stroke-opacity="0.28" />
-      <circle cx="26" cy="30" r="6" fill="#818CF8" />
-      <text x="42" y="35" fill="#C7D2FE" font-size="12" font-weight="800" letter-spacing="1.4">DISTRIBUTED</text>
-      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">Kafka · Redis</text>
-      <text x="24" y="109" fill="#CBD5E1" font-size="14">Pub/Sub · Service Bus</text>
-      <text x="24" y="138" fill="#CBD5E1" font-size="14">Retries · DLQ · Outbox</text>
-      <text x="24" y="167" fill="#94A3B8" font-size="13">Idempotency · Rate limits</text>
-    </g>
-    <g transform="translate(610 88)">
-      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#A78BFA" stroke-opacity="0.28" />
-      <circle cx="26" cy="30" r="6" fill="#A78BFA" />
-      <text x="42" y="35" fill="#DDD6FE" font-size="12" font-weight="800" letter-spacing="1.4">CLOUD + DELIVERY</text>
-      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">Azure · Docker</text>
-      <text x="24" y="109" fill="#CBD5E1" font-size="14">Functions · APIM</text>
-      <text x="24" y="138" fill="#CBD5E1" font-size="14">Kubernetes · Helm</text>
-      <text x="24" y="167" fill="#94A3B8" font-size="13">Argo CD · GitHub Actions</text>
-    </g>
-    <g transform="translate(896 88)">
-      <rect width="267" height="202" rx="18" fill="#F8FAFC" fill-opacity="0.035" stroke="#34D399" stroke-opacity="0.26" />
-      <circle cx="26" cy="30" r="6" fill="#34D399" />
-      <text x="42" y="35" fill="#A7F3D0" font-size="12" font-weight="800" letter-spacing="1.4">DATA + INTERFACE</text>
-      <text x="24" y="78" fill="#F1F5F9" font-size="18" font-weight="750">SQL · PostgreSQL</text>
-      <text x="24" y="109" fill="#CBD5E1" font-size="14">MinIO · Qdrant</text>
-      <text x="24" y="138" fill="#CBD5E1" font-size="14">Angular · TypeScript</text>
-      <text x="24" y="167" fill="#94A3B8" font-size="13">Prometheus · Grafana</text>
+
+    <g transform="translate(708 84)">
+      <rect width="438" height="218" rx="14" fill="#030712" fill-opacity="0.68" stroke="#334155"/>
+      <text x="24" y="36" fill="#64748B" font-size="11" font-weight="700" letter-spacing="1.5">DESIGN CONCERNS</text>
+      <g font-size="13" font-weight="650">
+        <g transform="translate(24 59)"><rect width="178" height="38" rx="8" fill="#2DD4BF" fill-opacity="0.07" stroke="#2DD4BF" stroke-opacity="0.35"/><text x="89" y="24" text-anchor="middle" fill="#99F6E4">IDEMPOTENCY</text></g>
+        <g transform="translate(215 59)"><rect width="199" height="38" rx="8" fill="#38BDF8" fill-opacity="0.07" stroke="#38BDF8" stroke-opacity="0.35"/><text x="99" y="24" text-anchor="middle" fill="#BAE6FD">BACKPRESSURE</text></g>
+        <g transform="translate(24 111)"><rect width="178" height="38" rx="8" fill="#818CF8" fill-opacity="0.07" stroke="#818CF8" stroke-opacity="0.35"/><text x="89" y="24" text-anchor="middle" fill="#C7D2FE">SAFE RETRIES</text></g>
+        <g transform="translate(215 111)"><rect width="199" height="38" rx="8" fill="#F472B6" fill-opacity="0.06" stroke="#F472B6" stroke-opacity="0.3"/><text x="99" y="24" text-anchor="middle" fill="#FBCFE8">OBSERVABILITY</text></g>
+      </g>
+      <circle cx="28" cy="187" r="5" fill="#27C93F"/>
+      <text x="43" y="192" fill="#94A3B8" font-size="12">build → ship → operate → learn</text>
     </g>
   </g>
 </svg>
