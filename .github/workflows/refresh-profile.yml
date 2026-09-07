@@ -1,0 +1,57 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/refresh-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Sanket9326/Sanket9326'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+      - name: Test data handling
+        run: node --test scripts/refresh.test.mjs
+      - name: Fetch public stats
+        id: fetch
+        continue-on-error: true
+        run: node scripts/refresh.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Render profile assets
+        run: node scripts/render.mjs
+      - name: Commit changed snapshots and assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ assets/
+          if git diff --cached --quiet; then
+            echo 'Profile is already up to date.'
+            exit 0
+          fi
+          git commit -m 'Refresh profile statistics'
+          git push origin HEAD:main
+      - name: Report an unavailable data source
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo 'A source could not refresh. Last successful dated data has been preserved.'
+          exit 1
